@@ -1,0 +1,19 @@
+.tractify-list-enter-active,
+.tractify-list-leave-active {
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.tractify-list-enter,
+.tractify-list-leave-to {
+  height: 0px;
+}
+
+.tractify-list-enter-to,
+.tractify-list-leave {
+  transition: height 0.3s linear, max-height 0s 0.3s linear;
+}
+
+.tractify-list-animate {
+  overflow: hidden;
+}
